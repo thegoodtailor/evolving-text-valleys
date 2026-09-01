@@ -1,0 +1,9 @@
+# CPU analysis (detect.py, cluster_hardened.py, explain_valley.py) needs only numpy.
+numpy>=1.24
+
+# GPU steps (diary generation, SAE featuring, readouts, steering, ablation):
+#   pinned versions — transformers 5.16.1 is required for the qwen3_5 architecture.
+torch==2.5.1
+transformers==5.16.1
+safetensors
+huggingface_hub

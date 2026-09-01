@@ -1,0 +1,24 @@
+{
+  "diary": "lover",
+  "generator": "post",
+  "generator_id": "Qwen/Qwen3.5-9B",
+  "logprobs": {
+    "base": {
+      "model": "Qwen/Qwen3.5-9B-Base",
+      "mean_logprob": -1.7880301872889202
+    },
+    "post": {
+      "model": "Qwen/Qwen3.5-9B",
+      "mean_logprob": -1.7440001567204793
+    }
+  },
+  "sae_layer": 20,
+  "sae_repo": "Qwen/SAE-Res-Qwen3.5-9B-Base-W64K-L0_100",
+  "sae_health": {
+    "topk_max_val": 13.249530792236328,
+    "topk_frac_active": 1.0,
+    "eff_rank_median": 14.228308497507536
+  },
+  "basis": "sae",
+  "note": "SAE healthy enough to carry motif directions; residual fallback available if S1 is noisy"
+}
